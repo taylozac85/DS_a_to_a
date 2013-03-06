@@ -1,0 +1,69 @@
+<%= render 'layouts/navbar' %>
+  
+
+<div class="container">
+  <div class="projects-wrapper">
+    <div class="row-fluid">
+      <%= render 'layouts/side-navbar' %>
+      <div class="span9">
+        <div class="project-container">
+          <dl class="dl-horizontal">
+            <dt><h1>Project:</h1></dt>
+              <dd><h1>Growth Channels</h1></dd>
+
+              <dt>Questions Answered:</dt>
+              <dd><ul><strong>
+                <li>Who are my best customers?</li>
+                 <ul></strong>
+                  <li>What do they look like?</li>
+                  <li>Where do they come from?</li>
+                  <li><strong>How do I obtain more like them?</strong></li>
+                </ul><strong>
+                <li>What are my most successful acquisition channels?</li> 
+                  <ul></strong>
+                    <li>How does my cost of acquisition differ by channel?</li>
+                    <li>Which channels should I focus additional effort on to acquire more customers?</li>
+                  </ul><strong>
+                  <li>What are some additional high potential channels I could focus on?</li>
+                  <ul></strong>
+                    <li>E.g., specific blogs, products, companies, organizations, twitter accounts, etc.</li>
+                  </ul>
+              </ul>
+            </dd>
+
+              <dt>What you need:</dt>
+              <dd>
+                <ul>
+                <li>Customer data or description of target customers (see <a href="./faq.html">faq</a> for examples)</li>
+                <li>[Optional] Any completed customer research, value prop testing, or interviews</li>
+                <li>[Optional] Cost data on channel spend and conversion rate to date in order to calculate cost per acquisition</li>
+                </ul>
+              </dd>
+
+              <dt>What you get:</dt>
+              <dd>
+                <ul><strong>
+                <li>Detailed report with answers and results from analysis</li>
+                <li>Prioritized list of channels with historical results and costs of acquisition</li>
+                <li>Recommendations for business and/or tracking infrastructure improvements based on data</li>
+              </strong></ul>
+              </dd>
+
+              <dt>Cost:</dt>
+              <dd>
+                <strong>Fixed cost of $3000.</strong>  No hidden charges, 100% satisfaction guarantee. Compare against traditional management consultants at $50,000 per project (minimum!) and $500/hr/person or learn more about how we save you money <a href="./faq.html">here</a>.
+              </dd>    
+          </dl>
+          <div class="row-fluid">
+            <div class="span6 offset3 buy-now">
+              <a href="#buyModal" class="btn btn-success btn-buy-now" data-toggle="modal">Buy Now</a>
+              <a href="./testimonials.html" class="btn btn-info btn-buy-now">See More Examples</a>
+            </div>
+          </div>
+        </div>
+      </div><!--/span-->
+    </div><!--/row-->
+  </div><!--/projects-wrapper-->
+</div><!--/container-->
+
+<%= render 'layouts/modal' %>

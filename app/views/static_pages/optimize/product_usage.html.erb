@@ -1,0 +1,56 @@
+<%= render 'layouts/navbar' %>
+
+<div class="container">
+  <div class="projects-wrapper">
+    <div class="row-fluid">
+      <%= render 'layouts/side-navbar' %>
+      <div class="span9">
+        <div class="project-container">
+          <dl class="dl-horizontal">
+            <dt><h1>Project:</h1></dt>
+            <dd><h1>Product Usage Assessment</h1></dd>
+            <dt>Questions Answered:</dt>
+            <dd><ul><strong>
+              <li>How do I keep customers using my product?</li>
+               <ul></strong>
+                <li>Where and when do my customers drop off?</li>
+                <li>Are certain types of my customers more or less likely to remain active?</li>
+                <li>How much of my retention is likely controllable vs. uncontrollable (based on industry benchmarks and testing)</li>
+                <li>Are there behavioral or demographic predictors for anticipating which customers are likely to remain active vs. become inactive?</li>
+
+            </ul></dd>
+
+            <dt>What you need:</dt>
+            <dd>
+              <ul>
+             <li>Your definition of a retained or active customer</li>
+             <li>Access to your tracking system (e.g., Omniture, KissMetrics, Mixpanel, Flurry, Google Analytics, etc.)</li>
+              <li><strong>Note:</strong> Unlike conversion assessment, product usage assessment is often open ended and therefore not easily performed with extracted reports.  Therefore it is essential to be able to explore various navigation paths to discover behaviors from within the tracking system directly. Please contact us if you believe this need can be solved with extracted reports or would like more information on the type and strength of our NDAs.</li>
+           </ul>
+             </dd>
+
+            <dt>What you get:</dt>
+            <dd>
+              <ul><strong>
+              <li>Detailed report with answers and results from analysis</li>
+              <li>Analytical model generated during project</li>
+              <li>Recommendations for business and/or tracking infrastructure improvements based on data</li>
+
+            </ul></strong>
+            </dd>
+            <dt>Cost:</dt>
+            <dd><strong>Fixed cost of $5000.</strong>  No hidden charges, 100% satisfaction guarantee. Compare against traditional management consultants at $50,000 per project (minimum!) and $500/hr/person or learn more about how we save you money <a href="./faq.html">here</a>.
+          </dl>
+          <div class="row-fluid">
+            <div class="span6 offset3 buy-now">
+              <a href="#buyModal" class="btn btn-success btn-buy-now" data-toggle="modal">Buy Now</a>
+              <a href="./testimonials.html" class="btn btn-info btn-buy-now">See More Examples</a>
+            </div>
+          </div>
+        </div>
+      </div><!--/span-->
+    </div><!--/row-->
+  </div><!--/projects-wrapper-->
+</div><!--/container-->
+
+<%= render 'layouts/modal' %>

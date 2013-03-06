@@ -1,0 +1,22 @@
+<%= render 'layouts/navbar' %>
+  
+<div class="container">
+  <div class="projects-wrapper">
+    <div class="row-fluid">
+      <%= render 'layouts/side-navbar' %>
+      <div class="span9">
+        
+        <%= yield %>
+        
+        <div class="row-fluid">
+          <div class="span6 offset3 buy-now">
+            <a href="#buyModal" class="btn btn-success btn-buy-now" data-toggle="modal">Buy Now</a>
+            <a href="./testimonials.html" class="btn btn-info btn-buy-now">See More Examples</a>
+          </div>
+        </div>
+      </div><!--/span-->
+    </div><!--/row-->
+  </div><!--/projects-wrapper-->
+</div><!--/container-->
+
+<%= render 'layouts/modal' %>

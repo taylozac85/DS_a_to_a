@@ -1,0 +1,54 @@
+<%= render 'layouts/navbar' %>
+
+<div class="container">
+  <div class="projects-wrapper">
+    <div class="row-fluid">
+      <%= render 'layouts/side-navbar' %>
+      <div class="span9">
+        <div class="project-container">
+          <dl class="dl-horizontal">
+            <dt><h1>Project:</h1></dt>
+            <dd><h1>Market Sizing</h1></dd>
+            <dt>Questions Answered:</dt>
+            <dd><ul><strong>
+              <li>What is the size of my market?</li>
+               <ul></strong>
+                <li>How is it expected to grow over the next 5 years?</li>
+                <li>What are the participants' market shares?</li>
+                <li>Are there any factors that may cause disruption?</li>
+                <li>Are there any trends that are affecting profitability, product mix, or market structure currently in play?</li>
+                <li>Are there substitutes?</li>
+                <li>What kind of margins should I expect?</li>
+                <li>On what basis do the participants compete against one another?</li>
+            </ul></dd>
+
+            <dt>What you need:</dt>
+            <dd>
+              <ul>
+              <li>Description of your market including product, industry, customer(s), and geography(ies) (see <a href="./faq.html">faq</a> for examples)</li>
+            </ul>
+              </dd>
+
+            <dt>What you get:</dt>
+            <dd>
+              <ul><strong>
+              <li>Market sizing model with well documented sources, benchmarks, and comparables for each assumption</li>
+              <li>Supporting report with trends, issues, other factors, and observations</li>
+            </ul></strong>
+            </dd>
+            <dt>Cost:</dt>
+            <dd><strong>Fixed cost of $3000.</strong>  No hidden charges, 100% satisfaction guarantee. Compare against traditional management consultants at $50,000 per project (minimum!) and $500/hr/person or learn more about how we save you money <a href="./faq.html">here</a>.
+          </dl>
+          <div class="row-fluid">
+            <div class="span6 offset3 buy-now">
+              <a href="#buyModal" class="btn btn-success btn-buy-now" data-toggle="modal">Buy Now</a>
+              <a href="./testimonials.html" class="btn btn-info btn-buy-now">See More Examples</a>
+            </div>
+          </div>
+        </div>
+      </div><!--/span-->
+    </div><!--/row-->
+  </div><!--/projects-wrapper-->
+</div><!--/container-->
+
+<%= render 'layouts/modal' %>

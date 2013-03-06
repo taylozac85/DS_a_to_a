@@ -1,0 +1,59 @@
+<%= render 'layouts/navbar' %>  
+
+<div class="container">
+  <div class="projects-wrapper">
+    <div class="row-fluid">
+      <%= render 'layouts/side-navbar' %>
+      <div class="span9">
+        <div class="project-container">
+          <dl class="dl-horizontal">
+            <dt><h1>Project:</h1></dt>
+              <dd><h1>Competitive Analysis</h1></dd>
+              <dt>Questions Answered:</dt>
+              <dd><ul><strong>
+                <li>Who are my most successful competitors?</li>
+                 <ul></strong>
+                  <li>Why are they successful?</li>
+                  <li>How do they differentiate themselves?</li>
+                </ul><strong>
+                <li>What are the pain points of my customers? 
+                  <ul></strong>
+                    <li>Why do my customers leave my product?</li>
+                    <li>Why do my competitors' customers leave them?</li>
+                    <li>What are some ways I could prevent my customers from leaving or recapture them after churning?</li>
+                  </ul><strong>
+                <li>How do I reach my potential customers?</li></strong>
+
+              </ul></dd>
+
+              <dt>What you need:</dt>
+              <dd>
+                <ul><li>List of current products and competitors (see <a href="./faq.html">faq</a> for examples)</li>
+                </ul>
+                </dd>
+
+              <dt>What you get:</dt>
+              <dd>
+                <ul><strong>
+                <li>Detailed report with answers and results from analysis</li>
+                <li>Analytical model generated during project</li>
+                <li>Recommendations for business and/or tracking infrastructure improvements based on data</li>
+
+              </ul></strong>
+              </dd>
+              <dt>Cost:</dt>
+              <dd><strong>Fixed cost of $2000.</strong>  No hidden charges, 100% satisfaction guarantee. Compare against traditional management consultants at $50,000 per project (minimum!) and $500/hr/person or learn more about how we save you money <a href="./faq.html">here</a>.
+          </dl>
+          <div class="row-fluid">
+            <div class="span6 offset3 buy-now">
+              <a href="#buyModal" class="btn btn-success btn-buy-now" data-toggle="modal">Buy Now</a>
+              <a href="./testimonials.html" class="btn btn-info btn-buy-now">See More Examples</a>
+            </div>
+          </div>
+        </div>
+      </div><!--/span-->
+    </div><!--/row-->
+  </div><!--/projects-wrapper-->
+</div><!--/container-->
+
+<%= render 'layouts/modal' %>

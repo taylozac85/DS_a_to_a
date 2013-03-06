@@ -1,0 +1,54 @@
+<%= render 'layouts/navbar' %>
+
+<div class="container">
+  <div class="projects-wrapper">
+    <div class="row-fluid">
+      <%= render 'layouts/side-navbar' %>
+      <div class="span9">
+        <div class="project-container">
+          <dl class="dl-horizontal">
+            <dt><h1>Project:</h1></dt>
+            <dd><h1>Customer Segmentation</h1></dd>
+            <dt>Questions Answered:</dt>
+            <dd>
+              <ul>
+                <li><strong>Who are my most profitable customers?</strong></li>
+                <ul>
+                  <li>What do they look like?</li>
+                  <li>Where do they come from?</li>
+                </ul>
+                <li><strong>Who are my least profitable customers?</strong>
+                <ul>
+                  <li>What do they look like?</li>
+                  <li>Where do they come from?</li>
+                </ul>
+                <li><strong>What portion of my revenue is generated from my top 10% of customers?</strong></li>
+                <li><strong>What portion of my revenue is generated from customers who don't use my product?</li></strong>
+              </ul>
+            </dd>
+            <dt>What you need:</dt>
+            <dd><strong>Customer data (see <a href="./faq.html">faq</a> for examples)</strong></dd>
+            <dt>What you get:</dt>
+            <dd>
+              <ul><strong>
+                <li>Detailed report with answers and results from analysis</li>
+                <li>Analytical model generated during project</li>
+                <li>Recommendations for business and/or tracking infrastructure improvements based on data</li>
+              </ul></strong>
+            </dd>
+            <dt>Cost:</dt>
+            <dd><strong>Fixed cost of $2000.</strong>  No hidden charges, 100% satisfaction guarantee. Compare against traditional management consultants at $50,000 per project (minimum!) and $500/hr/person or learn more about how we save you money <a href="./faq.html">here</a>.
+          </dl>
+          <div class="row-fluid">
+            <div class="span6 offset3 buy-now">
+              <a href="#buyModal" class="btn btn-success btn-buy-now" data-toggle="modal">Buy Now</a>
+              <a href="./testimonials.html" class="btn btn-info btn-buy-now">See More Examples</a>
+            </div>
+          </div>
+        </div>
+      </div><!--/span-->
+    </div><!--/row-->
+  </div><!--/projects-wrapper-->
+</div><!--/container-->
+
+<%= render 'layouts/modal' %>
